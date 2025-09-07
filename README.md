@@ -1,5 +1,9 @@
 # nvim-lspconfig
 
+> This fork updates ts_ls and denols to not be started at the same time.
+>
+> It therefore removes '.git' from the denols root and deno.lock from the ts_ls root
+
 nvim-lspconfig is a "data only" repo, providing basic, default [Nvim LSP client](https://neovim.io/doc/user/lsp.html)
 configurations for various LSP servers. View [all configs](doc/configs.md) or `:help lspconfig-all` from Nvim.
 
